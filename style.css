@@ -1,0 +1,53 @@
+.py-5{
+    padding: 10%;
+    border: black;
+}
+/*.col-2{
+    border: black;
+}
+.nav flex-column{
+    background-origin: padding-box;
+    border: black;
+}*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style: none;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background: yellow;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(239, 5, 5);
+    padding: 0 100px;
+    line-height: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: red;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    border: 1px solid black;
+    transition: .5s;
+}
